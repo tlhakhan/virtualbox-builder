@@ -3,7 +3,7 @@
 # Debian Installer
 #
 
-set preseed_url https://tlhakhan.github.io/virtualbox-buider/debian/bookworm/preseed.cfg
+set preseed_url https://tlhakhan.github.io/virtualbox-builder/debian/bookworm/preseed.cfg
 set linux_url http://deb.debian.org/debian/dists/bookworm/main/installer-amd64/current/images/netboot/debian-installer/amd64/linux
 set initrd_url http://deb.debian.org/debian/dists/bookworm/main/installer-amd64/current/images/netboot/debian-installer/amd64/initrd.gz
 
