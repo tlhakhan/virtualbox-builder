@@ -4,8 +4,8 @@
 export PATH=$PATH:/usr/local/bin
 
 # No password needed for privilege escalation by vagrant user
-cat <<EOF > /etc/sudoers.d/vagrant
-vagrant ALL=(ALL) NOPASSWD:ALL
+cat <<EOF > /etc/sudoers.d/packer
+packer ALL=(ALL) NOPASSWD:ALL
 EOF
 
 # Install ansible
